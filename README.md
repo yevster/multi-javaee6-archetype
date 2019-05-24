@@ -12,7 +12,7 @@ The original purpose of this archetype was to test m2e-wtp and some Eclipse serv
 Pre-Requisites :
 -------------------
 
-* JDK 1.7 or later
+* JDK 1.8 or later
 * maven 3.0 or later
 
 How to use in Eclipse

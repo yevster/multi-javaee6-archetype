@@ -14,12 +14,12 @@
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.openarchetypes</groupId>
-  <artifactId>multi-javaee6-archetype</artifactId>
+  <groupId>com.yevster</groupId>
+  <artifactId>multi-javaee8-archetype</artifactId>
   <version>1.0.1-SNAPSHOT</version>
   <packaging>maven-archetype</packaging>
-  <name>Basic multi module Java EE 6 archetype</name>
-  <description>Generates a *very basic* multi module Java EE 6 project composed of a parent pom project and 4 nested modules : Java Utility, EJB 3.1, Web 3.0 and EAR 6.0. No JSF nor persistence involved</description>
+  <name>Basic multi module Java EE 8 archetype</name>
+  <description>Generates a *very basic* multi module Java EE 6 project composed of a parent pom project and 4 nested modules : Java Utility, EJB 3.2, Web 3.0 and EAR 6.0. No JSF nor persistence involved</description>
   <url>http://open-archetypes.googlecode.com/</url>
   <licenses>
       <license>
@@ -29,9 +29,9 @@
       </license>
   </licenses>
   <scm>
-    <connection>scm:git:https://github.com/open-archetypes/multi-javaee6-archetype.git</connection>
-    <developerConnection>scm:git:git@github.com:open-archetypes/multi-javaee6-archetype.git</developerConnection>
-    <url>https://github.com/open-archetypes/multi-javaee6-archetype</url>
+    <connection>scm:git:https://github.com/yevster/multi-javaee6-archetype.git</connection>
+    <developerConnection>scm:git:git@github.com:yevster/multi-javaee6-archetype.git</developerConnection>
+    <url>https://github.com/yevster/multi-javaee6-archetype</url>
     <tag>HEAD</tag>
   </scm>
   <build>
@@ -67,10 +67,10 @@
   <properties>
   	<archetype.version>2.2</archetype.version>
   </properties>
-  <distributionManagement>
+  <!-- <distributionManagement>
     <repository>
       <id>bintray</id>
       <url>https://api.bintray.com/maven/open-archetypes/maven/multi-javaee6-archetype</url>
     </repository>
-  </distributionManagement>
+  </distributionManagement> -->
 </project>
